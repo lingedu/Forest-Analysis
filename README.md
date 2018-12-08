@@ -1,4 +1,4 @@
-# [Classification for Forest Cover Type]
+# Classification for Forest Cover Type
 
 
 The data source is come from UCI Machine Learning Repository. We use mahine learning tools in scikit-learn to help classify the forest cover in Roosevelt National Forest of northern Colorado. We first do data exploration. We use the ExtraTreesClassifier from scikit-learn to evaluate the feature importance. We also use histogram and scatter plot to show the distribution of data. After exploring the data, we will use the decision tree classifier, kNN clasifier, neural network classifier (multi-layer perceptron classifier) to classify the data and compare their performance.
