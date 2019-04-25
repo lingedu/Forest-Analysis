@@ -1,9 +1,8 @@
 # Classification for Forest Cover Type
 
 
-The data source is come from UCI Machine Learning Repository. We use mahine learning tools in scikit-learn to help classify the forest cover in Roosevelt National Forest of northern Colorado. We first do data exploration. We use the ExtraTreesClassifier from scikit-learn to evaluate the feature importance. We also use histogram and scatter plot to show the distribution of data. After exploring the data, we will use the decision tree classifier, kNN clasifier, neural network classifier (multi-layer perceptron classifier) to classify the data and compare their performance.
+The data source is come from UCI Machine Learning Repository. We use mahine learning tools in scikit-learn to help classify the forest cover in Roosevelt National Forest of northern Colorado. We first do data exploration. We use the ExtraTreesClassifier from scikit-learn to evaluate the feature importance. We also use histogram and scatter plot to show the distribution of data. After exploring the data, we will use the decision tree classifier, kNN clasifier, neural network classifier (multi-layer perception classifier) to classify the data and compare their performance.
 
-![](img/cover.jpg)
 Credit[USDA Forest Service](https://www.fs.usda.gov/Internet/FSE_MEDIA/stelprdb5446926.jpg)
 #### Data Set Information (https://archive.ics.uci.edu/ml/datasets/Covertype)
 Predicting forest cover type from cartographic variables only (no remotely sensed data). The actual forest cover type for a given observation (30 x 30 meter cell) was determined from US Forest Service (USFS) Region 2 Resource Information System (RIS) data. Independent variables were derived from data originally obtained from US Geological Survey (USGS) and USFS data. Data is in raw form (not scaled) and contains binary (0 or 1) columns of data for qualitative independent variables (wilderness areas and soil types).
@@ -34,3 +33,5 @@ Name / Data Type / Measurement / Description
 * Soil_Type (40 binary columns) / qualitative / 0 (absence) or 1 (presence) / Soil Type designation
 * Cover_Type (7 types) / integer / 1 to 7 / Forest Cover Type designation
 
+
+![](img/cover.jpg)
